@@ -4,9 +4,10 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Hello World!</title>
+    <title>Start</title>
   </head>
   <body>
-    <h2><s:property value="messageStore.message" /></h2>
+    <h1>Welcome!</h1>
+    <p><a href="<s:url action='firstDemoAc'/>">Go to the action.</a></p>
   </body>
 </html>

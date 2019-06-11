@@ -13,13 +13,13 @@
         render the result index.jsp -->
         <!-- If no name value for the result node is specified the success value is the default -->
 		<action name="index">
-			<result>/index.jsp</result>
+			<result>/demoStart.jsp</result>
 		</action>
 		
 		<!-- If the URL is hello.action then call the execute method of class HelloWorldAction.
 		If the result returned by the execute method is success render the HelloWorld.jsp -->
-		<action name="hello" class="org.apache.struts.helloworld.action.HelloWorldAction" method="execute">
-			<result name="success">/HelloWorld.jsp</result>
+		<action name="firstDemoAc" class="org.cgiar.ciat.test.action.FirstDemoAction" method="execute">
+			<result name="success">/demo.jsp</result>
 		</action>
 
 	</package>
